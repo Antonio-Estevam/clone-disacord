@@ -30,4 +30,4 @@ import { ExpandMore } from 'styled-icons/material';
         color: var(--white);
         cursor: pointer;
     `;
-;//https://youtu.be/x4FdZd2-_uU?t=3369
+;
