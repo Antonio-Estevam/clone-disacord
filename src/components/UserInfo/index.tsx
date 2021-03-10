@@ -6,7 +6,7 @@ import { Container,
      UserData,
      Icons,
      MicIcon,
-     HeadphoneIcon,
+     HeadsetIcon,
      SettingsIcon 
     } from './styles';
 
@@ -15,12 +15,15 @@ const UserInfo: React.FC = () => {
         <Container>
             <Profile>
                 <Avatar/>
-                <UserData />
+                <UserData>
+                    <strong>Antonio Estevam</strong>
+                    <span>#7765</span>
+                </UserData>
             </Profile>
 
             <Icons>
                 <MicIcon/>
-                <HeadphoneIcon/>
+                <HeadsetIcon/>
                 <SettingsIcon/>
             </Icons>
         </Container>
